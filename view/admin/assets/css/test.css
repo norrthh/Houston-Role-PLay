@@ -1,0 +1,68 @@
+body {
+    background: #efeffa;
+    font-family: 'Mulish Regular';
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Artegra Soft';
+    background-color: #f4f6fc;
+}
+.menu {
+    height: 100vh;
+    background-color: #fff;
+    padding: 3vh 3vh;
+    display: block;
+    box-shadow: 0 0 2em rgb(0 0 0 / 10%);
+    width: 5rem;
+    padding-top: 30vh;
+}
+.fas {
+    font-size: 25px;
+    padding-top: 2rem;
+}
+
+.menu a {
+    font-size: 15px;
+}
+
+.menu a:hover {
+    color: #8563f8;
+}
+.purple {
+    color:#8563f8;
+}
+.menu .active {
+    color: #8563f8;
+    background: none;
+    font-weight: bold;
+}
+.menu span {
+    margin-left:1rem;
+}
+
+.card-text {
+    color:#8563f8;
+}
+
+.card {
+    width: 13rem;
+    outline: none;
+    border: none;
+}
+button {
+    background: white;
+    border: none;
+    color:#0d6efd;
+    margin-left: -5px;
+    font-weight: bold;
+}
+
+.container-xxl {
+    max-width: 100%;
+}
+

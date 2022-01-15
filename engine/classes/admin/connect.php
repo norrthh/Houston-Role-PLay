@@ -1,0 +1,18 @@
+<?
+    $transferhost = 'localhost';
+	$transferdbname   = 'a0563693_transfer';
+	$transferuser = 'a0563693_transfer';
+	$transferpass = 'kk7f5QnC';
+
+    $transferconnect = mysqli_connect($transferhost, $transferuser, $transferpass,$transferdbname);
+
+	$bd = mysqli_query($transferconnect, "SELECT * FROM `acces_usesr` WHERE `nick` = '$admin'");
+    $bd = mysqli_fetch_assoc($bd);
+
+	$host = '217.106.107.72';
+	$dbname   = 'EVE45016';
+	$user = 'H45016';
+	$pass = 'loka21231';
+
+	$connect = mysqli_connect($host, $user, $pass,$dbname);
+?>

@@ -1,0 +1,108 @@
+body {
+    color: white;
+    background-color: #191e3d;
+    font-family: 'Artegra Soft';
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    height: 100vh;
+    background-color: #151932;
+    padding: 1rem 1rem;
+    padding-top: 5vh;
+    font-size: 19px;
+    width: 6%;
+}
+.fas {
+    font-size: 25px;
+    padding-top: 2rem;
+}
+
+.menu span {
+    width: 60%;
+    margin-left: 38px;
+    display: inline-block;
+}
+
+.menu .active {
+    color:#fff;
+}
+
+.menu a {
+    padding:1rem;
+    color: #b9bbcc;
+}
+
+.menu a:hover {
+    color:#fff;
+}
+
+.card-text {
+    color:#8563f8;
+}
+
+.card {
+    width: 13rem;
+    outline: none;
+    border: none;
+    background-color: #151932;
+    width: 100%;
+}
+/*  Button   */
+button {
+    background: white;
+    border: none;
+    background-color: #292d48;
+    margin-left: -5px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #292d48;
+    border-color: #191e3d;
+}
+
+/*  Container   */
+
+.container-xxl {
+    max-width: 100%;
+}
+.container {
+    max-width: 100%;
+}
+/* ТАБЛИЦА */
+
+.table {
+    border-radius: 30px;
+    background: #151932;
+    color: white;
+    outline: 0;
+    border: 0;
+}
+
+.table>:not(caption)>*>* {
+    padding:18px 15px;
+}
+
+.update {
+    background: #191e3d;
+    border-color: #191e3d;
+    color: white;
+}
+
+.msg {
+    border: 2px solid #151932;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal-content {
+    background-color: #0d0f1f;
+}
